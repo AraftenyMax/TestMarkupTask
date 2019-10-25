@@ -1,8 +1,17 @@
+#app {
+    justify-content: center;
+    margin: 50px 50px 0 50px;
+}
+
 header {
     font-family: Courier;
     font-style: normal;
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .fake-sign-in-btn {
@@ -17,7 +26,6 @@ header {
 #logo-text {
     width: auto;
     max-width: 150px;
-
 }
 
 .logo-text-container {
@@ -26,20 +34,29 @@ header {
     height: auto;
 }
 
-.menu {
-    display: inline;
+.menu-items-list {
+    display: flex;
+    margin-left: 125px;
+    margin-right: 20px;
 }
 
-.menu-items-list {
-    display: inline;
-    list-style: none;
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    .menu-items-list {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
 }
 
 .fake-sign-in-container {
-    display: inline;
+    display: inline-block;
+    height: auto;
+    justify-content: space-between;
+    flex: 1;
+    text-align: right;
 }
 
 .menu-item {
-    display: inline;
+    margin-left: 28px;
 }
 
