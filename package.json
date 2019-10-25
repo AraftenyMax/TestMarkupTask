@@ -1,0 +1,24 @@
+{
+  "name": "testcase",
+  "version": "1.0.0",
+  "description": "Test task implementation.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AraftenyMax/TestMarkupTask.git"
+  },
+  "author": "Arafteny Maxim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AraftenyMax/TestMarkupTask/issues"
+  },
+  "homepage": "https://github.com/AraftenyMax/TestMarkupTask#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

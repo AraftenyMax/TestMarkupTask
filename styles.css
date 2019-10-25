@@ -1,0 +1,45 @@
+header {
+    font-family: Courier;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fake-sign-in-btn {
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#logo-text {
+    width: auto;
+    max-width: 150px;
+
+}
+
+.logo-text-container {
+    display: inline-block;
+    max-width: 150px;
+    height: auto;
+}
+
+.menu {
+    display: inline;
+}
+
+.menu-items-list {
+    display: inline;
+    list-style: none;
+}
+
+.fake-sign-in-container {
+    display: inline;
+}
+
+.menu-item {
+    display: inline;
+}
+
