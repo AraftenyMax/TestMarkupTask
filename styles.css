@@ -3,7 +3,46 @@
     margin: 50px 50px 0 50px;
 }
 
-.desktop-menu {
+.menu-icon {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 799px) {
+    #app {
+        margin: 50px 10px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-icon {
+        display: inline;
+        margin-right: 15px;
+    }
+    .logo-text-container {
+        margin-left: 15px;
+    }
+    .menu-container {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+.menu-icon-line {
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.menu-container {
     font-family: Courier;
     font-style: normal;
     font-size: 16px;
