@@ -3,14 +3,13 @@
     margin: 50px 50px 0 50px;
 }
 
-header {
+.desktop-menu {
     font-family: Courier;
     font-style: normal;
     font-size: 16px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -58,5 +57,47 @@ header {
 
 .menu-item {
     margin-left: 28px;
+}
+
+.head-container {
+    margin-top: 50px;
+    border-radius: 20px;
+    background: black;
+}
+
+.head-translated-container {
+    transform: translateY(60px);
+    display: flex;
+}
+
+.head-text-container {
+    transform: translateY(210px);
+    padding-left: 0px;
+}
+
+.head-img-container {
+    overflow: hidden;
+    border-radius: 50%; 
+    box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.45);
+    height: 550px;
+    transform: scale;
+    margin-left: 40px;
+}
+
+.head-img {
+    border-radius: 200px;
+    margin-left: -85%;
+    margin-top: -35%;
+    transform: scale(0.85);
+}
+
+.head-text {
+    color: white;
+    font-size: 132px;
+    line-height: 78.1%;
+    font-family: archivo_blackregular;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
