@@ -31,15 +31,13 @@
     }
 }
 
-@media only screen and (min-width: 800px) {
-
-}
+@media only screen and (min-width: 800px) {}
 
 .menu-icon-line {
     width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 
 .menu-container {
@@ -55,7 +53,7 @@
 .fake-sign-in-btn {
     text-transform: uppercase;
     color: white;
-    background: black;
+    background: #212121;
     padding: 20px;
     border: 1px solid black;
     border-radius: 4px;
@@ -115,7 +113,7 @@
 }
 
 .head-img-container {
-    border-radius: 50%; 
+    border-radius: 50%;
     box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.45);
     background: url("headlogo.png");
     background-position: center;
@@ -131,23 +129,21 @@
     font-weight: normal;
     text-transform: uppercase;
 }
+
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .head-translated-container {
         transform: translateY(0);
         display: unset;
     }
-
     .head-img-container {
         width: 86vw;
         margin: 0 auto;
         height: 100vw;
     }
-
     .head-text-container {
         width: 90vw;
         transform: translateY(15px);
     }
-
     .head-text {
         font-size: 15.9vw;
     }
@@ -155,23 +151,132 @@
 
 @media only screen and (min-width: 640px) {
     .head-translated-container {
-        transform: translateY(7.5vw);
+        transform: translateY(5.0vw);
     }
-
     .head-img-container {
         width: 35vw;
         height: 38vw;
-        margin-left: 10px;
+        margin-left: 25px;
     }
-
     .head-text-container {
-        transform: translateY(11vw);
+        transform: translateY(14vw);
         padding-left: 0px;
         width: 60vw;
         margin-left: 20px;
     }
-
     .head-text {
         font-size: 9vw;
     }
+}
+
+.starships {
+    display: flex;
+    margin-top: 100px;
+}
+
+.starships-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.order-filter-container {
+    flex-basis: 100%;
+    text-align: right;
+    font-family: Courier;
+    align-items: center;
+}
+
+.starship {
+    background-color: #212121;
+    width: 200px;
+    height: 200px;
+}
+
+.our-starships-label-container {
+    flex-basis: 3vw;
+    font-family: archivo_blackregular;
+}
+
+.our-starships-label {
+    writing-mode: sideways-lr;
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.filters-container {
+    margin-left: 50px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.ship-filter {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.filter-checkbox {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    margin-right: 0px;
+    margin-right: 18px;
+}
+
+.filter-name {
+    font-family: archivo_blackregular;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.filter-info-text {
+    color: #0066FF;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.pilots-count {
+    float: right;
+}
+
+.pilot-name {
+    font-family: Courier;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+.pilot {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.load-pilots-label {
+    margin-top: 25px;
+    font-family: Courier;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
 }
