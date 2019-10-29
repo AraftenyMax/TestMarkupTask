@@ -1,225 +1,263 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/archivo-black-font/stylesheet.css">
-        <link rel="stylesheet" type="text/css" href="styles.css"> 
-    </head>
-    <body>
-        <div id="app">
-            <div class="menu-container">
-                <div class="logo-text-container">
-                    <img id="logo-text" src="starwarstext.png">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/archivo-black-font/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="menu-container">
+            <div class="logo-text-container">
+                <img id="logo-text" src="starwarstext.png">
+            </div>
+            <div class="menu-icon">
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line"></div>
+            </div>
+            <div class="menu">
+                <div class="menu-items-list">
+                    <div class="menu-item">Hero</div>
+                    <div class="menu-item">List</div>
+                    <div class="menu-item">CTA Block</div>
+                    <div class="menu-item">Footer</div>
                 </div>
-                <div class="menu-icon">
-                        <div class="menu-icon-line"></div>
-                        <div class="menu-icon-line"></div>
-                        <div class="menu-icon-line"></div>
-                    </div>
-                <div class="menu">
-                    <div class="menu-items-list">
-                        <div class="menu-item">Hero</div>
-                        <div class="menu-item">List</div>
-                        <div class="menu-item">CTA Block</div>
-                        <div class="menu-item">Footer</div>
-                    </div>
-                    <div class="fake-sign-in-container">
-                        <span class="fake-sign-in-btn">Fake sign up</span>
-                    </div>
+                <div class="fake-sign-in-container">
+                    <span class="fake-sign-in-btn">Fake sign up</span>
                 </div>
             </div>
-            <div class="head-container">
-                <div class="head-translated-container">
-                    <div class="head-img-container">
-                    </div>
-                    <div class="head-text-container">
-                        <span class="head-text">May the force be with you</span>
-                    </div>
+        </div>
+        <div class="head-container">
+            <div class="head-translated-container">
+                <div class="head-img-container">
+                </div>
+                <div class="head-text-container">
+                    <span class="head-text">May the force be with you</span>
                 </div>
             </div>
-            <div class="starships">
-                <div class="our-starships-label-container">
-                    <p class="our-starships-label">Our starships</p>
-                </div>
-                <div class="filters-container">
-                    <div class="pilots-filter ship-filter">
-                        <div class="filter-header">
-                            <span class="filter-name">Pilots</span>
-                            <span class="filter-info-text pilots-count">(314)</span>
-                        </div>
-                        <div class="pilot">
-                            <input class="filter-checkbox" type="checkbox">
-                            <span class="pilot-name">Luke Skywalker</span>
-                        </div>
-                        <div class="pilot">
-                            <input class="filter-checkbox" type="checkbox">
-                            <span class="pilot-name">Darth Vader</span>
-                        </div>
-                        <div class="pilot">
-                            <input class="filter-checkbox" type="checkbox">
-                            <span class="pilot-name">Leia Organa</span>
-                        </div>
-                        <div class="pilot">
-                            <input class="filter-checkbox" type="checkbox">
-                            <span class="pilot-name">Owen Lars</span>
-                        </div>
-                        <div class="pilot">
-                            <input class="filter-checkbox" type="checkbox">
-                            <span class="pilot-name pilot-last">Beru Whitesun Lars</span>
-                        </div>
-                        <span class="load-pilots-label filter-info-text">View All</span>
+        </div>
+        <div class="starships">
+            <div class="our-starships-label-container">
+                <p class="our-starships-label">Our starships</p>
+            </div>
+            <div class="filters-container">
+                <div class="pilots-filter ship-filter">
+                    <div class="filter-header">
+                        <span class="filter-name">Pilots</span>
+                        <span class="filter-info-text pilots-count">(314)</span>
                     </div>
-                    <div class="filter-header ship-filter">
+                    <div class="pilot">
+                        <input class="filter-checkbox" type="checkbox">
+                        <span class="pilot-name">Luke Skywalker</span>
+                    </div>
+                    <div class="pilot">
+                        <input class="filter-checkbox" type="checkbox">
+                        <span class="pilot-name">Darth Vader</span>
+                    </div>
+                    <div class="pilot">
+                        <input class="filter-checkbox" type="checkbox">
+                        <span class="pilot-name">Leia Organa</span>
+                    </div>
+                    <div class="pilot">
+                        <input class="filter-checkbox" type="checkbox">
+                        <span class="pilot-name">Owen Lars</span>
+                    </div>
+                    <div class="pilot">
+                        <input class="filter-checkbox" type="checkbox">
+                        <span class="pilot-name pilot-last">Beru Whitesun Lars</span>
+                    </div>
+                    <span class="load-pilots-label filter-info-text">View All</span>
+                </div>
+                <div class="crew-filter ship-filter">
+                    <div class="filter-header">
                         <span class="filter-name">Crew size</span>
-                        <div class="select-slider"></div>
                     </div>
+                    <div class="select-slider-container">
+                        <div class="slider-info-container">
+                            <div class="slider-info-count">
+                                <input type="text" name="min-value" class="slider-input">
+                            </div>
+                            <div class="slider-info-count">
+                                <input type="text" name="max-value" class="slider-input">
+                            </div>
+                        </div>
+                        <div class="slider-render-container">
+                            <div class="slider-line"></div>
+                            <div class="slider-dot"></div>
+                            <div class="slider-selected-gap"></div>
+                            <div class="slider-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="passengers-filter ship-filter">
                     <div class="filter-header ship-filter">
                         <span class="filter-name">Passengers capacity</span>
-                        <div class="select-slider"></div>
+                    </div>
+                    <div class="select-slider-container">
+                        <div class="slider-info-container">
+                            <div class="slider-info-count">
+                                <input type="text" name="min-value" class="slider-input">
+                            </div>
+                            <div class="slider-info-count">
+                                <input type="text" name="max-value" class="slider-input">
+                            </div>
+                        </div>
+                        <div class="slider-render-container">
+                            <div class="slider-line"></div>
+                            <div class="slider-dot"></div>
+                            <div class="slider-selected-gap"></div>
+                            <div class="slider-dot"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="starships-container">
-                    <div class="order-filter-container">
+            </div>
+            <div class="starships-container">
+                <div class="order-filter-container">
+                    <div class="order-filter-wrapper">
                         <select class="order-filter">
                             <option value="">By crew size</option>
                             <option value="">By cost in credits</option>
                             <option value="">By mlgt number</option>
                         </select>
                     </div>
-                    <div class="starships-list">
-                        <div class="starship">
-                            <div class="starship-name-container">
-                                <div class="starship-header">
-                                    <span class="starship-name">
-                                        ex
-                                    </span>
-                                    <span class="starship-mlgt">
-                                        mlgt: 40
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="starship-info-container">
-                                <span class="starship-type starship-characteristic">
-                                    Executor
+                </div>
+                <div class="starships-list">
+                    <div class="starship">
+                        <div class="starship-name-container">
+                            <div class="starship-header">
+                                <span class="starship-name">
+                                    ex
                                 </span>
-                                <span class="starship-cr starship-characteristic">
-                                    Cr: 29144
-                                </span>
-                                <span class="starship-crew starship-characteristic">
-                                    Crew: 29144
-                                </span>
-                                <span class="starship-psngs starship-characteristic">
-                                    Psngs: 38000
+                                <span class="starship-mlgt">
+                                    mlgt: 40
                                 </span>
                             </div>
                         </div>
-                        <div class="starship">
-                                <div class="starship-name-container">
-                                    <div class="starship-header">
-                                        <span class="starship-name">
-                                            ex
-                                        </span>
-                                        <span class="starship-mlgt">
-                                            mlgt: 40
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="starship-info-container">
-                                    <span class="starship-type starship-characteristic">
-                                        Executor
-                                    </span>
-                                    <span class="starship-cr starship-characteristic">
-                                        Cr: 29144
-                                    </span>
-                                    <span class="starship-crew starship-characteristic">
-                                        Crew: 29144
-                                    </span>
-                                    <span class="starship-psngs starship-characteristic">
-                                        Psngs: 38000
-                                    </span>
-                                </div>
+                        <div class="starship-info-container">
+                            <span class="starship-type starship-characteristic">
+                                Executor
+                            </span>
+                            <span class="starship-cr starship-characteristic">
+                                Cr: 29144
+                            </span>
+                            <span class="starship-crew starship-characteristic">
+                                Crew: 29144
+                            </span>
+                            <span class="starship-psngs starship-characteristic">
+                                Psngs: 38000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="starship">
+                        <div class="starship-name-container">
+                            <div class="starship-header">
+                                <span class="starship-name">
+                                    ex
+                                </span>
+                                <span class="starship-mlgt">
+                                    mlgt: 40
+                                </span>
                             </div>
-                            <div class="starship">
-                                    <div class="starship-name-container">
-                                        <div class="starship-header">
-                                            <span class="starship-name">
-                                                ex
-                                            </span>
-                                            <span class="starship-mlgt">
-                                                mlgt: 40
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="starship-info-container">
-                                        <span class="starship-type starship-characteristic">
-                                            Executor
-                                        </span>
-                                        <span class="starship-cr starship-characteristic">
-                                            Cr: 29144
-                                        </span>
-                                        <span class="starship-crew starship-characteristic">
-                                            Crew: 29144
-                                        </span>
-                                        <span class="starship-psngs starship-characteristic">
-                                            Psngs: 38000
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="starship">
-                                        <div class="starship-name-container">
-                                            <div class="starship-header">
-                                                <span class="starship-name">
-                                                    ex
-                                                </span>
-                                                <span class="starship-mlgt">
-                                                    mlgt: 40
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="starship-info-container">
-                                            <span class="starship-type starship-characteristic">
-                                                Executor
-                                            </span>
-                                            <span class="starship-cr starship-characteristic">
-                                                Cr: 29144
-                                            </span>
-                                            <span class="starship-crew starship-characteristic">
-                                                Crew: 29144
-                                            </span>
-                                            <span class="starship-psngs starship-characteristic">
-                                                Psngs: 38000
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="starship">
-                                            <div class="starship-name-container">
-                                                <div class="starship-header">
-                                                    <span class="starship-name">
-                                                        ex
-                                                    </span>
-                                                    <span class="starship-mlgt">
-                                                        mlgt: 40
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="starship-info-container">
-                                                <span class="starship-type starship-characteristic">
-                                                    Executor
-                                                </span>
-                                                <span class="starship-cr starship-characteristic">
-                                                    Cr: 29144
-                                                </span>
-                                                <span class="starship-crew starship-characteristic">
-                                                    Crew: 29144
-                                                </span>
-                                                <span class="starship-psngs starship-characteristic">
-                                                    Psngs: 38000
-                                                </span>
-                                            </div>
-                                        </div>
+                        </div>
+                        <div class="starship-info-container">
+                            <span class="starship-type starship-characteristic">
+                                Executor
+                            </span>
+                            <span class="starship-cr starship-characteristic">
+                                Cr: 29144
+                            </span>
+                            <span class="starship-crew starship-characteristic">
+                                Crew: 29144
+                            </span>
+                            <span class="starship-psngs starship-characteristic">
+                                Psngs: 38000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="starship">
+                        <div class="starship-name-container">
+                            <div class="starship-header">
+                                <span class="starship-name">
+                                    ex
+                                </span>
+                                <span class="starship-mlgt">
+                                    mlgt: 40
+                                </span>
+                            </div>
+                        </div>
+                        <div class="starship-info-container">
+                            <span class="starship-type starship-characteristic">
+                                Executor
+                            </span>
+                            <span class="starship-cr starship-characteristic">
+                                Cr: 29144
+                            </span>
+                            <span class="starship-crew starship-characteristic">
+                                Crew: 29144
+                            </span>
+                            <span class="starship-psngs starship-characteristic">
+                                Psngs: 38000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="starship">
+                        <div class="starship-name-container">
+                            <div class="starship-header">
+                                <span class="starship-name">
+                                    ex
+                                </span>
+                                <span class="starship-mlgt">
+                                    mlgt: 40
+                                </span>
+                            </div>
+                        </div>
+                        <div class="starship-info-container">
+                            <span class="starship-type starship-characteristic">
+                                Executor
+                            </span>
+                            <span class="starship-cr starship-characteristic">
+                                Cr: 29144
+                            </span>
+                            <span class="starship-crew starship-characteristic">
+                                Crew: 29144
+                            </span>
+                            <span class="starship-psngs starship-characteristic">
+                                Psngs: 38000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="starship">
+                        <div class="starship-name-container">
+                            <div class="starship-header">
+                                <span class="starship-name">
+                                    ex
+                                </span>
+                                <span class="starship-mlgt">
+                                    mlgt: 40
+                                </span>
+                            </div>
+                        </div>
+                        <div class="starship-info-container">
+                            <span class="starship-type starship-characteristic">
+                                Executor
+                            </span>
+                            <span class="starship-cr starship-characteristic">
+                                Cr: 29144
+                            </span>
+                            <span class="starship-crew starship-characteristic">
+                                Crew: 29144
+                            </span>
+                            <span class="starship-psngs starship-characteristic">
+                                Psngs: 38000
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+</body>
+
 </html>
