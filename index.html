@@ -44,6 +44,9 @@
                 <p class="our-starships-label">Our starships</p>
             </div>
             <div class="filters-container">
+                <div class="apply-filters">
+                    <span class="bold-blue-text apply-filters-text">Apply filters (3)</span>
+                </div>
                 <div class="pilots-filter ship-filter">
                     <div class="filter-header">
                         <span class="filter-name">Pilots</span>
@@ -69,7 +72,7 @@
                         <input class="filter-checkbox" type="checkbox">
                         <span class="pilot-name pilot-last">Beru Whitesun Lars</span>
                     </div>
-                    <span class="load-pilots-label filter-info-text">View All</span>
+                    <span class="bold-blue-text filter-info-text">View All</span>
                 </div>
                 <div class="crew-filter ship-filter">
                     <div class="filter-header">
@@ -93,7 +96,7 @@
                     </div>
                 </div>
                 <div class="passengers-filter ship-filter">
-                    <div class="filter-header ship-filter">
+                    <div class="filter-header">
                         <span class="filter-name">Passengers capacity</span>
                     </div>
                     <div class="select-slider-container">
@@ -117,11 +120,22 @@
             <div class="starships-container">
                 <div class="order-filter-container">
                     <div class="order-filter-wrapper">
-                        <select class="order-filter">
-                            <option value="">By crew size</option>
-                            <option value="">By cost in credits</option>
-                            <option value="">By mlgt number</option>
-                        </select>
+                        <div class="order-filter">
+                            <p value="" class="selected">By crew size</p>
+                            <p value="" class="">By cost in credits</p>
+                            <p value="" class="">By mlgt number</p>
+                        </div>
+                        <div class="order-filter-arrow">
+                            <img class="order-arrow" src="dropdown-arrow.png"></img>
+                        </div>
+                    </div>
+                    <div class="filters-info">
+                        <div>
+                            <span class="bold-blue-text filters-apply-count">(3)</span>
+                        </div>
+                        <div class="filter-mobile-button-container">
+                            <img class="filter-mobile-button">
+                        </div>
                     </div>
                 </div>
                 <div class="starships-list">
