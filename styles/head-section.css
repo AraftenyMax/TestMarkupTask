@@ -1,0 +1,72 @@
+.head-container {
+    margin-top: 40px;
+    border-radius: 20px;
+    background: black;
+}
+
+.head-translated-container {
+    transform: translateY(60px);
+    display: flex;
+}
+
+.head-text-container {
+    padding-left: 0px;
+    border-radius: 200px;
+    height: 20vw;
+}
+
+.head-img-container {
+    border-radius: 50%;
+    box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.45);
+    background: url("../images/headlogo.png");
+    background-position: center;
+    background-size: 225%;
+}
+
+.head-text {
+    color: white;
+    font-size: 132px;
+    line-height: 78.1%;
+    font-family: archivo_blackregular;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .head-translated-container {
+        transform: translateY(0);
+        display: unset;
+    }
+    .head-img-container {
+        width: 86vw;
+        margin: 0 auto;
+        height: 100vw;
+    }
+    .head-text-container {
+        width: 90vw;
+    }
+    .head-text {
+        font-size: 15.9vw;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .head-translated-container {
+        transform: translateY(5.0vw);
+    }
+    .head-img-container {
+        width: 35vw;
+        height: 38vw;
+        margin-left: 25px;
+    }
+    .head-text-container {
+        transform: translateY(14vw);
+        padding-left: 0px;
+        width: 60vw;
+        margin-left: 20px;
+    }
+    .head-text {
+        font-size: 9vw;
+    }
+}
