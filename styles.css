@@ -174,7 +174,12 @@
 }
 
 .starships {
-    display: flex;
+    display: grid;
+    grid-template-columns: 58px 350px auto;
+    grid-template-rows: 58px auto;
+    grid-template-areas: 
+        "our-starships-label filters order-filter"
+        "our-starships-label filters starships";
     margin-top: 100px;
     margin-right: 60px;
 }
@@ -234,6 +239,7 @@
         font-size: 24px;
         line-height: 26px;
         height: 100px;
+        grid-area: our-starships-label;
         margin: 0;
         margin-top: 150px;
     }
@@ -241,6 +247,8 @@
         margin-left: 50px;
         width: 350px;
         height: fit-content;
+        grid-area: filters;
+        align-self: flex-start;
         height: -moz-fit-content;
     }
     .apply-filters {
@@ -254,6 +262,12 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .order-filter {
+        grid-area: order-filter;
+    }
+    .starship-cards-container {
+        grid-area: starships-start;
+    }
     .starship {
         width: 233px;
         margin-left: 25px;
@@ -263,7 +277,7 @@
     }
 }
 
-.starships-container {
+.starship-cards-container {
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -285,7 +299,6 @@
     line-height: 18px;
     align-items: center;
     font-weight: bold;
-    /*background: url("white-arrow.jpg") 96% / 15% no-repeat #212121;*/
     color: #FFFFFF;
     text-transform: uppercase;
     height: -moz-fit-content;

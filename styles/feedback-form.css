@@ -1,0 +1,38 @@
+.feedback-form-container {
+    display: grid;
+    width: 100%;
+    background-color: #0066FF;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "feedback-form starship";
+    border-radius: 20px;
+}
+
+.feedback-form {
+    display: flex;
+    grid-area: feedback-form;
+    flex-direction: column;
+}
+
+.feedback-form-ship {
+    grid-area: starship;
+    background: url("../spaceship.png");
+}
+
+.feedback-form-item {
+    width: fit-content;
+    width: -moz-fit-content;
+    height: fit-content;
+    height: -moz-fit-content;
+}
+
+.feedback-form-input {
+    font-family: archivo_blackregular;
+    font-size: 16px;
+    line-height: 78.1%;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}

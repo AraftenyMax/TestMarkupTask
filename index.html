@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/archivo-black-font/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/feedback-form.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -42,6 +43,26 @@
         <div class="starships">
             <div class="our-starships-label-container">
                 <p class="our-starships-label">Our starships</p>
+            </div>
+            <div class="order-filter-container">
+                <div class="order-filter-wrapper">
+                    <div class="order-filter">
+                        <p value="" class="selected">By crew size</p>
+                        <p value="" class="">By cost in credits</p>
+                        <p value="" class="">By mlgt number</p>
+                    </div>
+                    <div class="order-filter-arrow">
+                        <img class="order-arrow" src="dropdown-arrow.png"></img>
+                    </div>
+                </div>
+                <div class="filters-info">
+                    <div>
+                        <span class="bold-blue-text filters-apply-count">(3)</span>
+                    </div>
+                    <div class="filter-mobile-button-container">
+                        <img class="filter-mobile-button">
+                    </div>
+                </div>
             </div>
             <div class="filters-container">
                 <div class="apply-filters">
@@ -117,27 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="starships-container">
-                <div class="order-filter-container">
-                    <div class="order-filter-wrapper">
-                        <div class="order-filter">
-                            <p value="" class="selected">By crew size</p>
-                            <p value="" class="">By cost in credits</p>
-                            <p value="" class="">By mlgt number</p>
-                        </div>
-                        <div class="order-filter-arrow">
-                            <img class="order-arrow" src="dropdown-arrow.png"></img>
-                        </div>
-                    </div>
-                    <div class="filters-info">
-                        <div>
-                            <span class="bold-blue-text filters-apply-count">(3)</span>
-                        </div>
-                        <div class="filter-mobile-button-container">
-                            <img class="filter-mobile-button">
-                        </div>
-                    </div>
-                </div>
+            <div class="starship-cards-container">
                 <div class="starships-list">
                     <div class="starship">
                         <div class="starship-name-container">
@@ -269,6 +270,41 @@
                             </span>
                         </div>
                     </div>
+                </div>
+            </div> 
+        </div>
+        <div class="feedback-form-container">
+            <div class="feedback-form">
+                <div class="feedback-form-item">
+                    <input type="text" class="feedback-form-input" placeholder="Email">
+                </div>
+                <div class="feedback-form-item">
+                    <input type="text" class="feedback-form-input" placeholder="Phone">
+                </div>
+                <div class="feedback-form-item">
+                    <p class="feedback-form-button">Get your 20% off coupon</p>
+                </div>
+            </div>
+            <div class="feedback-form-ship"></div>
+        </div>
+        <div class="menu-container">
+            <div class="logo-text-container">
+                <img id="logo-text" src="starwarstext.png">
+            </div>
+            <div class="menu-icon">
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line"></div>
+            </div>
+            <div class="menu">
+                <div class="menu-items-list">
+                    <div class="menu-item">Hero</div>
+                    <div class="menu-item">List</div>
+                    <div class="menu-item">CTA Block</div>
+                    <div class="menu-item">Footer</div>
+                </div>
+                <div class="fake-sign-in-container">
+                    <span class="fake-sign-in-btn">Mne naverh</span>
                 </div>
             </div>
         </div>
