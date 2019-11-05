@@ -16,14 +16,41 @@
 
 .feedback-form-ship {
     grid-area: starship;
-    background: url("../spaceship.png");
+}
+
+.feedback-form {
+    margin-left: 86px;
+    margin-right: 34px;
 }
 
 .feedback-form-item {
-    width: fit-content;
-    width: -moz-fit-content;
-    height: fit-content;
-    height: -moz-fit-content;
+    margin-top: 32px;
+}
+
+.feedback-form-button {
+    font-size: 16px;
+    line-height: 78.1%;
+    font-family: archivo_blackregular;
+    color: white;
+    padding-left: 36px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 164px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feedback-right-arrow {
+    margin-right: 39px;
+}
+
+.feedback-form-submit-container {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .feedback-form-input {
@@ -31,8 +58,14 @@
     font-size: 16px;
     line-height: 78.1%;
     color: black;
+    padding-left: 38px;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    width: 100%;
 }
 
-::placeholder {
+input.feedback-form-input::placeholder {
     color: black;
+    opacity: 1;
+    text-transform: uppercase;
 }
